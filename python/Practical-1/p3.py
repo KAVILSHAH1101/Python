@@ -1,0 +1,16 @@
+no1=oct(int(input("Enter 1st Number :")));
+no2=oct(int(input("Enter 2nd Number :")));
+a=type(no1);
+b=type(no2);
+print(a);
+print(b);
+add=no1+no2;
+#sub=no1-no2;
+mul=no1*no2;
+div=no1/no2;
+mod=no1%no2;
+print(no1," + ",no2," = ",add);
+print(no1," - ",no2," = ",sub);
+print(no1," * ",no2," = ",mul);
+print(no1," / ",no2," = ",div);
+print(no1," % ",no2," = ",mod);
